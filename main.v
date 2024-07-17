@@ -33,6 +33,7 @@ fn main() {
 		println('hash => ${block.hash}')
 		println('prev_hash => ${block.prev_hash}')
 		println('is_latest_block => ${bc.is_latest_block(block)}')
-		println('data => ${block.data}\n\n')
+		println('data => ${block.data}')
+		println('-'.repeat(block.hash.len) + '\n')
 	}
 }
